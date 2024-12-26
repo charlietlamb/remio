@@ -1,10 +1,4 @@
-import {
-  pgTable,
-  timestamp,
-  varchar,
-  decimal,
-  pgEnum,
-} from 'drizzle-orm/pg-core'
+import { pgTable, timestamp, varchar, decimal } from 'drizzle-orm/pg-core'
 import { customers } from './customers'
 import { subscriptions } from './subscriptions'
 

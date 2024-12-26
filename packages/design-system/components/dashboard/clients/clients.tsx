@@ -33,6 +33,7 @@ export default function Clients({
         dateRange?.from ?? new Date(),
         dateRange?.to ?? new Date()
       )
+
       setClientsChartData(clientChartData)
     }
     fetchClients()
